@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.omega.MainActivity">
+
+    <com.bibinjohny.custombutton.OmegaCenterIconButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_android_black_24dp"
+        android:text="It's really!"
+        android:textSize="14sp"
+        android:theme="@style/BlueButtonStyle" />
+
+    <com.bibinjohny.custombutton.OmegaCenterIconButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableRight="@drawable/ic_android_black_24dp"
+        android:text="Great"
+        android:textSize="14sp"
+        android:theme="@style/AccentButtonStyle" />
+
+
+    <com.bibinjohny.custombutton.OmegaCenterIconButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_android_black_24dp"
+        android:drawableRight="@drawable/ic_android_black_24dp"
+        android:text="library"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <com.bibinjohny.custombutton.OmegaCenterIconButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_beach_access_black_24dp"
+            android:text="left"
+            android:textSize="14sp" />
+
+        <com.bibinjohny.custombutton.OmegaCenterIconButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_bug_report_black_24dp"
+            android:text="right"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <com.bibinjohny.custombutton.OmegaCenterIconButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_beach_access_black_24dp"
+        android:drawableRight="@drawable/ic_bug_report_black_24dp"
+        android:text="both"
+        android:textSize="14sp" />
+
+</LinearLayout>
