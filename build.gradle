@@ -3,7 +3,7 @@ buildscript {
     ext.appCompatLibraryVersion = '1.0.0'
     ext.targetSdkVersion = 28
     ext.compileSdkVersion = 28
-    ext.minSdkVersion = 15
+    ext.minSdkVers
 
 
     repositories {
