@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.omega.MainActivity">
 
+    <!-- orientation is vertical by default-->
     <com.bibinjohny.custombutton.OmegaCenterIconButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
